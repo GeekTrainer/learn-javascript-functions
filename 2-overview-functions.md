@@ -20,7 +20,7 @@ The syntax for a function looks like the following:
 }
  ```
 
-Parameters and return values are optional when writing a function, so to start, let's check out some basic functions that don't take any inputs or return any values. If I wanted to create a function to display a greeting in the debugging [console](https://developer.mozilla.org/en-US/docs/Web/API/console) of your code editor, it might look like this:
+Parameters and return values are optional when writing a function, so to start, let's check out some basic functions that don't take any inputs or return any values. If I wanted to create a function to display a greeting in the debugging [console](https://developer.mozilla.org/docs/Web/API/console) of your code editor, it might look like this:
 
 ```javascript
 function displayGreeting() {
@@ -44,6 +44,6 @@ displayGreeting();
 There are a handful of best practices to keep in mind when creating functions:
 
 * Use descriptive names so you know what the function will do. `displayGreeting` makes it clear the functionality of the function - a greeting will be displayed. A name like `greet`, for a function that performs the same task, is a little ambiguous - it might display a greeting, but it could perform a different operation.
-* Use camelCasing to combine words. Since function and variable names can't contain spaces, camelCasing makes it faster to go back and read your code. For example, it's easier to read `displayGreeting` than `displaygreeting`.
+* Use camelCasing to combine words. To write in camelCase, keep the first word of your variable or function lowercase, and capitalize each subsequent word. Since function and variable names can't contain spaces, camelCasing makes it faster to go back and read your code. For example, it's easier to read `displayGreeting` than `displaygreeting`.
 * Keep your functions focused on a specific task. Not only does this make it more convenient to reuse your function several times throughout your program, but it also makes it easier to debug your code. If you have an issue with your function not performing the task you thought it would, you know the problem is contained within that function.
 * Use comments to annotate what functions do. Another tip for improving the readability of your code is to include a small description of what each function does in the form of a comment. You can create a comment by typing `//`, followed by your comment.
