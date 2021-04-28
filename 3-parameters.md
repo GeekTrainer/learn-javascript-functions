@@ -1,8 +1,6 @@
-# Parameters
-
 To make a function more reusable you'll often want to pass information into it. These inputs are called **parameters**.
 
-Let's say we wanted to change our *displayGreeting* function from the last example to be able to greet a specific person, instead of printing "Hello, world!" each time we call the function. We can use a parameter to specify the name. A parameter (also sometimes called an argument), is additional information sent to a function.
+Let's say we wanted to change our `displayGreeting` function from the last example to be able to greet a specific person, instead of printing "Hello, world!" each time we call the function. We can use a parameter to specify the name. A parameter (also sometimes called an argument), is additional information sent to a function.
 
 Parameters are listed in the definition of the function within parenthesis. There can be multiple parameters, comma separated like so:
 
@@ -49,31 +47,4 @@ displayGreeting('Christopher');
 
 displayGreeting('Christopher', 'Hi');
 // displays "Hi, Christopher"
-```
-
-## Return values
-
-Up until now the function we built will always output to the [console](https://developer.mozilla.org/en-US/docs/Web/API/console). Sometimes this can be exactly what we're looking for, especially when we create functions which will be calling other services. But what if I want to create a helper function to perform a calculation and provide the value back so I can use it elsewhere?
-
-We can do this by using a return value. A return value is returned by the function, and can be stored in a variable just the same as we could store a literal value such as a string or number.
-
-If a function does return something then the keyword `return` is used. The `return` keyword expects a value or reference of what's being returned like so:
-
-```javascript
-return myVariable;
-```
-
-We could create a function to create a greeting message and return the value back to the caller
-
-```javascript
-function createGreetingMessage(name) {
-  const message = `Hello, ${name}`;
-  return message;
-}
-```
-
-When calling this function we'll store the value in a variable. This is much the same way we'd set a variable to a static value (like `const name = 'Christopher'`).
-
-```javascript
-const greetingMessage = createGreetingMessage('Christopher');
 ```
