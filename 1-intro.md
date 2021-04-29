@@ -2,12 +2,12 @@ When we think about writing code, we always want to ensure our code is readable.
 
 In this module you will learn:
 
-* how to write a basic function
-* what parameters are and how to use them
-* how to use return values within functions
-* how to use anonymous functions
+- how to write a basic function
+- what parameters are and how to use them
+- how to use return values within functions
+- how to use anonymous functions
 
 Prerequisites:
 
-* A browser
-* [Visual Studio Code](https://code.visualstudio.com/learntocode/?utm_source=MSLearn&utm_medium=direct&utm_campaign=PartnerLessons) and the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension installed on your computer
+- A browser
+- [Visual Studio Code](https://code.visualstudio.com/learntocode/?utm_source=MSLearn&utm_medium=direct&utm_campaign=PartnerLessons) and the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for Visual Studio Code installed on your computer
